@@ -1,4 +1,5 @@
-h2 {
+body {
+  background-color: #ddcdeb;
 }
 
 main {
@@ -103,4 +104,10 @@ main > div {
   background: transparent !important;
   position: sticky;
   top: 0;
+}
+
+.footer,
+.footer hr {
+  background: #ddcdeb;
+  color: #412968;
 }
