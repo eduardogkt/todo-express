@@ -20,7 +20,7 @@
               <% if (locals.tasks) { %>
                 <% tasks.forEach((task) => { %>
                   <div class="task">
-                    <input type="checkbox" <%= task.check ? checked : ""  %> />
+                    <input type="checkbox" />
                     <p><%= task.text %></p>
                   </div>
                 <% }) %>
