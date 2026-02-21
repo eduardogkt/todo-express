@@ -2,9 +2,10 @@ h2 {
 }
 
 main {
+  margin-top: -80px;
   min-height: 100vh;
   background-color: #ddcdeb;
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 main > div {
@@ -41,6 +42,7 @@ main > div {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 .todo-title {
@@ -95,4 +97,10 @@ main > div {
 
 .task input {
   cursor: pointer;
+}
+
+.header {
+  background: transparent !important;
+  position: sticky;
+  top: 0;
 }
