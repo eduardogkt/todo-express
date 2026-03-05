@@ -98,6 +98,12 @@ main > div {
 
 .task input {
   cursor: pointer;
+  accent-color: #9d78da;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #41296896;
 }
 
 .header {

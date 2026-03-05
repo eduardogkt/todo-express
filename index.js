@@ -5,6 +5,7 @@ const app = express();
 const port = 3000;
 
 let tasks = [];
+let lastId = 0;
 
 function getDayOfWeek(today) {
   switch (today) {
@@ -48,7 +49,9 @@ app.get("/", (req, res) => {
 });
 
 app.post("/add", (req, res) => {
+  lastId++;
   const task = {
+    id: lastId,
     text: req.body["input"],
     check: false,
   };
